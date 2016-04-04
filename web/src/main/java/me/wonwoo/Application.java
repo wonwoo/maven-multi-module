@@ -2,6 +2,7 @@ package me.wonwoo;
 
 import me.wonwoo.entity.Account;
 import me.wonwoo.repository.AccountRepository;
+import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -29,6 +30,5 @@ public class Application {
         new Account("wonwoo", "123"),
         new Account("youngjin", "0000")
       ).forEach(accountRepository::save);
-
   }
 }
