@@ -1,0 +1,2 @@
+# maven-multi-module
+
